@@ -7,7 +7,7 @@ import {SectionWrapper} from '../hoc'
 import {testimonials} from "../constants/index.js";
 
 
-const FeedbackCard = ({index, testimonial, name, designation, compnay, image}) => (
+const FeedbackCard = ({index, testimonial, name, designation, company, image}) => (
     <motion.div
     variants={fadeIn('', 'spring', index * 0.5, 0.75)}
     className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
@@ -24,7 +24,7 @@ const FeedbackCard = ({index, testimonial, name, designation, compnay, image}) =
             <span className='blue-text-gradient'>@</span>{name}
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {name}
+            {designation} of {company}
           </p>
         </div>
         <img src={image} alt={`feedback-by-${name}`}

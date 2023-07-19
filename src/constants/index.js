@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -13,18 +12,20 @@ import {
     nodejs,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    rudn,
+    tradeLinkIcon,
     jobit,
     tripguide,
     threejs,
     vue,
     materialUi,
-    bootstrap
+    bootstrap,
+    Rtube,
+    portfolio,
+    foodOrder,
+    freelance,
+    tradelink_full,
+    portfolio_full,
 } from "../assets";
 
 export const navLinks = [
@@ -121,7 +122,7 @@ const experiences = [
     {
         title: "Russian Language Course",
         company_name: "People's Friendship University of Russia (RUDN)",
-        icon: '',
+        icon: rudn,
         iconBg: "#383E56",
         date: "Sept 2016 - May 2017",
         points: [
@@ -131,7 +132,7 @@ const experiences = [
     {
         title: "Bachelor's degree",
         company_name: "People's Friendship University of Russia (RUDN)",
-        icon: '',
+        icon: rudn,
         iconBg: "#383E56",
         date: "Sept 2017 - May 2021",
         points: [
@@ -142,7 +143,7 @@ const experiences = [
     {
         title: "Web Developer",
         company_name: "Freelance",
-        icon: shopify,
+        icon: freelance,
         iconBg: "#383E56",
         date: "Jan 2019 - Jan 2022",
         points: [
@@ -154,8 +155,8 @@ const experiences = [
     {
         title: "Master's degree",
         company_name: "People's Friendship University of Russia (RUDN)",
-        icon: '',
-        iconBg: "#383E56",
+        icon: rudn,
+        iconBg: "#4a0408",
         date: "Sept 2021 - May 2023",
         points: [
             "Studied for my Master's degree in a 2 years program at the Science faculty at RUDN.",
@@ -166,8 +167,8 @@ const experiences = [
     {
         title: "React.js Developer",
         company_name: "TradeLink",
-        icon: starbucks,
-        iconBg: "#383E56",
+        icon: tradeLinkIcon,
+        iconBg: "#fafcfb",
         date: "March 2022 - August 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
@@ -179,9 +180,9 @@ const experiences = [
     {
         title: "Vue Developer",
         company_name: "TradeLink",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "August 2023 - April 2023",
+        icon: tradeLinkIcon,
+        iconBg: "#fafcfb",
+        date: "August 2022 - April 2023",
         points: [
             "Developing and maintaining web applications using Vue.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -193,8 +194,8 @@ const experiences = [
     {
         title: "Web-developer",
         company_name: "Freelance",
-        icon: '',
-        iconBg: "#E6DEDD",
+        icon: freelance,
+        iconBg: "#101d6e",
         date: "April 2023 - Present",
         points: [
             "Mastering web development in more detail ",
@@ -207,26 +208,19 @@ const testimonials = [
     {
         testimonial:
             "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        name: "Kum Kenneth Karana",
+        designation: "Backend developer",
+        company: "TradeLink",
+        image: "",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "As your project manager, I've seen your effort, and I believe this experience has prepared you well for the" +
+            " challenges that lie ahead.",
+        name: "Dmitry Ushakov",
+        designation: "PM",
+        company: "TradeLink",
+        image: "",
     },
 ];
 
@@ -249,13 +243,34 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: foodOrder,
         source_code_link: "https://github.com/rextambua/",
     },
+    // {
+    //     name: "TradeLink",
+    //     description:
+    //         "Crypto trading platform that allows users to search and trade crypto based on best trading strategies.",
+    //     tags: [
+    //         {
+    //             name: "react, vue",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "javascript",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: tradelink_full,
+    //     source_code_link: "https://github.com/rextambua/",
+    // },
     {
         name: "Youtube clone",
         description:
-            "A youtube clone app using http and REST API with similar youtube actions",
+            "A youtube clone app using http and REST API with similar youtube actions, build using Reactjs and Material-UI",
 
         tags: [
             {
@@ -271,7 +286,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: Rtube,
         source_code_link: "https://github.com/rextambua/",
     },
     {
@@ -292,7 +307,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: portfolio_full,
         source_code_link: "https://github.com/rextambua/",
     },
 ];

@@ -33,12 +33,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText} style={{paddingTop: "3rem"}}>Introduction</p>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+              Hi, I'm <span className='text-[#915eff]'> Rex</span>
+          </h1>
+        {/*<h2 className={styles.sectionHeadText}>Overview</h2>*/}
       </motion.div>
         <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[20px] max-w-5xl leading-[30px]'
         >
             I am a skilled front-end developer with experience in
             TypeScript and Javascript, expertise in frameworks like

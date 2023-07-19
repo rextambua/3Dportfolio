@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -23,20 +22,24 @@ import threejs from "./tech/threejs.svg";
 import vue from '../assets/vue.png';
 import materialUi from '../assets/material-ui.png';
 import bootstrap from '../assets/bootstrap.png';
+import Rtube from '../assets/Rtube.png';
+import portfolio from '../assets/3dportfolio.png';
+import foodOrder from '../assets/foodOrder.png';
+import tradeLinkIcon from '../assets/tradelinkIcon.png';
+import rudn from '../assets/rudn.png';
+import freelance from '../assets/freelance.png';
+import tradelink_full from '../assets/tradelink_full.png';
+import portfolio_full from '../assets/portfolio_full.png';
+import mainLogo from '../assets/logoRex-no-background.svg';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -55,14 +58,18 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
+  freelance,
   jobit,
   tripguide,
   vue,
   materialUi,
   bootstrap,
+  Rtube,
+  portfolio,
+  foodOrder,
+  tradeLinkIcon,
+  rudn,
+  tradelink_full,
+  portfolio_full,
+  mainLogo,
 };
