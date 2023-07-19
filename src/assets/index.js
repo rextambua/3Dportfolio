@@ -31,6 +31,7 @@ import freelance from '../assets/freelance.png';
 import tradelink_full from '../assets/tradelink_full.png';
 import portfolio_full from '../assets/portfolio_full.png';
 import mainLogo from '../assets/logoRex-no-background.svg';
+import telegram from '../assets/telegram_logo.png';
 
 
 
@@ -72,4 +73,5 @@ export {
   tradelink_full,
   portfolio_full,
   mainLogo,
+  telegram,
 };

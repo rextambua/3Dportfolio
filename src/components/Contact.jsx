@@ -6,6 +6,7 @@ import {EarthCanvas} from './canvas';
 import {slideIn} from "../utils/motion.js";
 import {styles} from "../styles.js";
 import {SectionWrapper} from '../hoc'
+import {github, telegram} from "../assets/index.js";
 
 //NeDuuzy0oBI5QcgwG
 // template_sujpgoa
@@ -113,12 +114,24 @@ const Contact = () => {
               text-white rounded-lg outlined-non border-none font-medium'
             />
           </label>
+            <div className='flex gap-10'>
           <button
               type='submit'
               className='bg-tertiary py-3 px-8 outlined-non w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
           >
             {loading ? 'Sending...' : 'Send'}
           </button>
+            <img onClick={() => window.open('https://github.com/rextambua', '_blank')}
+                 src={github}
+                 alt='github'
+                 className='cursor-pointer black-gradient w-10 rounded-full w-1/2 h1/2 object-contain'
+            />
+                <img onClick={() => window.open('https://t.me/Rexovich', '_blank')}
+                     src={telegram}
+                     alt='github'
+                     className='cursor-pointer w-11 rounded-full object-contain'
+                />
+            </div>
         </form>
       </motion.div>
       <motion.div

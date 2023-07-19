@@ -43,9 +43,12 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-5xl leading-[30px]'
         >
-            I am a skilled front-end developer with experience in
-            TypeScript and Javascript, expertise in frameworks like
-            React, Vue, Node.js. I'm a quick learner and collaborate
+            I am a skilled front-end web developer with a master’s degree
+            in Applied Mathematics and Computer Science seeking new
+            opportunities to utilize and enhance technical skills in a dynamic work environment.
+            I have experience in web development technologies like
+            HTLM, CSS, Javascript and TypeScript, expertise in frameworks like
+            React, Vue, Node.js and many more. I'm a quick learner and collaborate
             closely with team members to create efficient,
             scalable and user-friendly solutions that solve real-world
             problems.Lets work together to bring your ideas to life!

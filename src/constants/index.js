@@ -224,6 +224,22 @@ const testimonials = [
     },
 ];
 
+const softSkills = [
+    {
+        skill: 'Fluent in English, French and Russian',
+    },
+    {
+        skill: 'Strong analytical and mathematical skills',
+    },
+    {
+        skill: 'Interested in sports (Football and basketball)',
+    },
+    {
+        skill: 'Excellent communication and teamwork abilities',
+    }
+]
+
+
 const projects = [
     {
         name: "Food order App",
@@ -312,4 +328,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, softSkills, technologies, experiences, testimonials, projects };
